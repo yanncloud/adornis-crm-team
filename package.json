@@ -1,0 +1,19 @@
+{
+  "name": "adornis-crm-team",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.5.0"
+  }
+}
